@@ -268,6 +268,7 @@ dot = [0x00, 0x00,
     0x00, 0x00, 
     0x00, 0x00]
 
+# 128 * 64
 def bfRenderNumber(dwHours, dwMinute, x, y, bShowCenter):
     if x >= 128:
         x = 0
